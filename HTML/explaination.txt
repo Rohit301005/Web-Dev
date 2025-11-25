@@ -1,9 +1,0 @@
-<> = tags
-<h1 - h6> = This are heading tags
-<p> = use for paragraph
-<br> = use to break the line
-<img> = use to insert image
-<a> = anchor tag use for links
-
-div = ek rectangle h jiksa width hoti h per height nhi hoti h1
-div ki height apne children ke barbaar hoti h
