@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>University Resigration Form</h1>
+    <p>Please fill out this form</p>
+    <hr>
+
+      <form >
+        <h2>Personal details</h2>
+
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g = arjun" required>
+        <br><br>
+        <label for="surname">Last Name:</label>
+        <input type="text" name="surname" id="surname" placeholder="e.g = roy" required>
+        <br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+        <h2> Please Select The Gender</h2>
+        <label for="male" >Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br><br>
+
+        <label for="female" >Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <br><br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br><br>
+        <label >Uplode Photo:</label>
+        <br>
+        <input type="file" name="file" required>
+        <hr>
+
+        <h2>Contact Info</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="e.g xxx123@gmail.com">
+
+        <label for="ph number">Phone Number:</label>
+        <input type="number" name="number" id="ph number" required>
+        <br>
+
+        <label for="mail address"> Mail Address:</label>
+        <br>
+        <textarea name="mail address" id="mail address"></textarea>
+        <hr>
+        <h2>Academic Info</h2>
+        <label for="select">Select your course</label>
+        <select name="select" id="select">
+            <option value="cse">CSE</option>
+            <option value="ce">CE</option>
+            <option value="me">ME</option>
+            <option value="ece">ECE</option>
+        </select>
+
+        <br><br>
+
+        <h2>Extracurricular Activites</h2>
+
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="intersest" id="sports" value="sports">
+        <br><br>
+
+        <label for="music and arts">Music & Arts</label>
+        <input type="checkbox" name="intersest" id="music and arts" value="music and arts">
+        <br><br>
+
+        <label for="tech">Tech</label>
+        <input type="checkbox" name="intersest" id="tech" value="tech">
+        <br><br>
+
+        <label for="dance">Dance</label>
+        <input type="checkbox" name="intersest" id="dance" value="dance">
+        <br><br>
+        <hr>
+
+        <h2>Create Your Account</h2>
+        <label for="name">UserName:</label>
+        <input type="text" name="username" id="name" required>
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" required>
+        <br><br>
+        <label for="secuirty">Choose Secuirty Question</label>
+        <select name="secuirty" id="secuirty">
+            <option value="Name">Name</option>
+            <option value="Your fav sport">Fav Sports</option>
+            <option value="fav music">Fav Music</option>
+        </select>
+        <br><br>
+        <label for="secu">Secuirt Question:</label>
+        <input type="text" name="secu que" id="secu" >
+        <br><br>
+
+        <label for="terms">I agree with terms and condition:</label>
+        <input type="radio" name="term" id="terms" value="terms" required>
+        <br><br>
+        <hr>
+        <button type="submit">Resgister</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+</body>
+</html>
