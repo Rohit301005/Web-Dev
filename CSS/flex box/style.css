@@ -1,0 +1,31 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+    gap:5px ;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+    
+}
+
+.first{
+    background-color: aqua;
+}
+
+.second{
+    background-color: orange;
+}
+
+.third{
+    background: yellow;
+}
+
+.fourth{
+    background-color: red;
+}
