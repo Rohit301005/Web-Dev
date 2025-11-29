@@ -1,0 +1,39 @@
+
+h1{
+    background-color: aqua;
+    position: static;
+    top: 300px; 
+    /* 
+    static means position never changes */
+}
+
+h2{
+    background-color: green;
+    position: relative;
+    top: 90px;
+    left: 20px;
+
+}
+
+h3{
+    background-color: blue;
+    position: fixed;
+    top: 10px;
+}
+
+h4{
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+
+h5{
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
