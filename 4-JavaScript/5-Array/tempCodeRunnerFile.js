@@ -1,0 +1,5 @@
+arr.push(40)
+// arr.push(70)
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
