@@ -1,0 +1,14 @@
+// and(&&)
+
+console.log(true&&true)
+console.log(true&&false)
+console.log(false&&false)
+console.log(false&&true)
+
+
+// OR(||)
+
+console.log(true||true)
+console.log(true||false)
+console.log(false||false)
+console.log(false||true)
