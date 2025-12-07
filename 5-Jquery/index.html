@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    
+</head>
+<body>
+    this is my body
+    <a href="www.google.com">Google</a>
+</body>
+<script src="./jquery-3.7.1.min.js"></script>
+<script>
+    console.log("we are using jquery")
+    // $('selector').action()  syntax
+    $('p').click() // click on p
+    $('p').click(function(){
+        console.log("you clicked on p")
+    })  // do this when we click on p
+
+    $('a').click(function(event){
+        alert("thanks for visting")
+    })
+</script>
+</html>

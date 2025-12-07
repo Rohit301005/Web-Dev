@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading {
+            color: green;
+            font-size: 34px;
+        }
+
+        h2 {
+            color: blue;
+            font-size: 32px;
+        }
+
+        .para {
+            color: red;
+        }
+
+        button {
+            color: white;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1 id="heading">This is the largest headingtag</h1>
+
+    <h2>this is the second largest heading tag</h2>
+
+    <h2>this is another heading tag</h2>
+
+    <p class="para">i am a paragraph</p>
+    <p class="para">i am another paragraph</p>
+
+    <button type="submit">click</button>
+</body>
+<script src="./jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                // $('h2').hide();
+                // $('#heading').hide();
+                // $('.para').hide();
+                // $('p:first').hide();
+                // $('*').hide(); // etu pura gayab krotha ha 
+                // $(this).hide(); 
+
+            })
+        })
+
+
+        // $(document).ready(function(){
+        //     $('h1').click(function(){
+        //         $('h2').hide()
+        //     })
+        // })
+
+        // there are three types of selector
+        // 1.element
+        // 2.id 
+        // 3. class
+    </script>
+
+</html>

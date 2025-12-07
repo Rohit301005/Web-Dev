@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button">Toggle now</button>
+
+    <p id="wiki">Hugh McCulloch	
+Hugh McCulloch (December 7, 1808 – May 24, 1895) was an American financier who played a central role in financing the American Civil War. He served two non-consecutive terms as United States Secretary of the Treasury under three presidents. He was originally opposed to the creation of a system of national banks, but his reputation as head of the Bank of Indiana from 1857 to 1863 persuaded the Treasury to bring him in to supervise the new system as Comptroller of the Currency from 1863 to 1865. As Secretary of the Treasury from 1865 to 1869 under Abraham Lincoln and Andrew Johnson, McCulloch reduced and funded the gigantic Civil War debt of the Union, and reestablished the federal taxation system across the former Confederate States of America. He served another six months as Secretary of the Treasury from 1884 to 1885, at the close of Chester A. Arthur's term as president. This line-engraved portrait of McCulloch was created by the Bureau of Engraving and Printing (BEP) as part of a BEP presentation book of the first 42 secretaries of the treasury; McCulloch's portrait was used on the 1902</p>
+</body>
+<script src="./jquery-3.7.1.min.js"></script>
+<script>
+// $(document).ready(function(){
+//     $('button').click(function(){
+//         $('#wiki').hide(2000)
+//     })
+// })
+// $(document).ready(function(){
+//     $('button').click(function(){
+//         $('#wiki').slideDown(2000)
+//     })
+// })
+$(document).ready(function(){
+    $('button').click(function(){
+        $('#wiki').animate({
+            opacity : 0.3,
+            height : '150px',
+            width :'350px'
+
+
+        },1000)
+    })
+})
+
+//fadeout
+//fadein
+//slideup
+//slidedown
+
+</script>
+</html>
